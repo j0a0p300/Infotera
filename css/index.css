@@ -1,0 +1,227 @@
+body{
+    background-color: rgb(227, 235, 243);
+}
+
+#filtro{
+    
+display: flex;
+position: absolute;
+width: 1307px;
+height: 90px;
+left: 66px;
+top: 394px;
+
+/* white */
+
+background: #FFFFFF;
+box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.09);
+border-radius: 11px;
+}
+
+#logo{
+    position: absolute;
+    width: 101px;
+    height: 26px;
+    left: 59px;
+    top: 17px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 26px;
+    /* identical to box height, or 130% */
+
+    text-align: right;
+
+    /* Text Color */
+
+    color: rgb(0, 38, 77);
+}
+
+#frase{
+    position: absolute;
+    width: 765px;
+    height: 80px;
+    left: 345px;
+    top: 251px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 50px;
+    /* or 40% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* Text Color */
+
+    color: rgb(0, 38, 77);
+
+}
+
+#inicioSessao{
+    position: absolute;
+    width: 84px;
+    height: 26px;
+    left: 1282px;
+    top: 17px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 26px;
+    /* identical to box height, or 217% */
+
+    text-align: right;
+
+    /* Caption Color */
+
+    color: rgb(105, 128, 150);
+
+}
+
+#Destino{
+    margin-left: 20px;
+    width: 20px;
+    height: 45px;
+}
+
+#Entrada{
+    color: rgb(227, 235, 243);
+    width: 20px;
+    height: 45px;
+    margin-left: 300px;
+}
+
+#Saida{
+    color: rgb(227, 235, 243);
+    width: 20px;
+    height: 45px;
+    margin-left: 200px;
+}
+
+#Hospedes{
+    color: rgb(227, 235, 243);
+    width: 20px;
+    height: 45px;
+    margin-left: 200px;
+}
+
+#separador {
+    position: absolute;
+    width: 37px;
+    height: 0px;
+    left: 688.97px;
+    top: 442px;
+
+    border: 1px solid #E3E6E9;
+    transform: rotate(-90deg);
+}
+
+#nomeDestino{
+    color: black;
+    width: 20px;
+    height: 45px;
+    margin-left: 20px;
+}
+
+#nomeEntrada{
+    color: black;
+    width: 20px;
+    height: 45px;
+    margin-left: 20px;
+}
+
+#nomeSaida{
+    color: black;
+    width: 20px;
+    height: 45px;
+    margin-left: 20px;
+}
+
+#nomeHospede{
+    color: black;
+    width: 20px;
+    height: 45px;
+    margin-left: 20px;
+}
+
+footer{
+    background-color: white;
+    text-align: center;
+    color: black;
+    bottom: 0;
+    left: 0;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+  }
+
+  #pesquisa{
+    height: 38px;
+    width: 117px;
+    border-radius: 50px;
+    background-color: rgb(0, 128, 255);
+    border-color: rgb(0, 128, 255);
+    color: #FFFFFF;
+    margin-left: 150px;
+    }
+
+#pesquisa:visited, #pesquisa:link{
+    text-decoration: #FFFFFF;
+}  
+
+#pesquisa:hover{
+    text-decoration: underline;
+    color: #FFFFFF;
+}
+
+#botaoPesquisa{
+    height: 38px;
+    width: 117px;
+    border-radius: 50px;
+    background-color: rgb(0, 128, 255);
+    border-color: rgb(0, 128, 255);
+    color: #FFFFFF;
+    margin-left: 350px;
+    margin-top: 25px;
+}
+
+#local{
+    margin-top: 17px;
+    margin-left: 20px;
+    color: black;
+}
+
+#dtEntrada{
+    margin-top: 17px;
+    margin-left: 20px;
+    color: black;
+    width: 180px;
+}
+
+#dtSaida{
+    margin-top: 17px;
+    margin-left: 20px;
+    color: black;
+    width: 180px;
+}
+
+#qntHospede{
+    margin-top: 17px;
+    margin-left: 20px;
+    color: black;
+}
+
+#qntHospede, #dtSaida, #dtEntrada{
+    border: none;
+    color: black;
+    border-radius: 5px;
+    border-width: 20px;
+}
+
